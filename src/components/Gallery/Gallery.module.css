@@ -1,0 +1,16 @@
+.gallery{
+    background-color: #bbe1e8;    
+}
+
+.para{
+    text-align: center;    
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.slider{
+    background-color: var(--secondary);      
+}

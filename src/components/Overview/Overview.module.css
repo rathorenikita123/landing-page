@@ -1,0 +1,23 @@
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.overview{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #bbe1e8;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.box p{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .overview{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+}
