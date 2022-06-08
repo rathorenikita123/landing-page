@@ -35,9 +35,9 @@ export default function Overview () {
     ]
 
     return(
-        <div >
+        <div id="overview">
             <h2 className={style.heading}>Overview</h2>
-            <div className={style.overview} id="overview">
+            <div className={style.overview} >
                 {items.map((item) => (
                     <div className={style.box} key={item.id}>
                         <h3>{item.title}</h3>

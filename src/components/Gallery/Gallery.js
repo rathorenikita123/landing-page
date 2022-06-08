@@ -18,7 +18,7 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 
 export default function Slider() {
   return (
-    <div>
+    <div id="gallery">
         <h2 className={style.heading}>Gallery</h2>
         <div className={style.gallery}>
             <p className={style.para}>(slide to see )</p>

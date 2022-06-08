@@ -52,7 +52,6 @@
 
 .contact a{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     color: var(--secondary);
     font-size: 2rem;
